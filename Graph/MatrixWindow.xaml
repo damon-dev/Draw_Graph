@@ -1,0 +1,8 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Graph.MatrixWindow"
+        Title="MatrixWindow" WindowStyle="ToolWindow" d:DesignWidth="304.481" d:DesignHeight="197.089" Closing="Window_Closing" SizeToContent="WidthAndHeight" Topmost="True" ResizeMode="NoResize" IsHitTestVisible="False" IsTabStop="False" ShowInTaskbar="False">
+    <Grid x:Name="MatrixGrid" Grid.IsSharedSizeScope="True">
+    </Grid>
+</Window>
