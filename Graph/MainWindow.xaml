@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" x:Class="Graph.MainWindow"
-        Title="New Graph" d:DesignWidth="724" d:DesignHeight="452.8" Closing="Window_Closing" Icon="200px-Directed.ico">
+        Title="New Graph" d:DesignWidth="724" d:DesignHeight="666.8" Closing="Window_Closing" Icon="200px-Directed.ico">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
@@ -76,15 +76,15 @@
                         <ListBoxItem Name="SConnectivityBoxItem">S Connectivity</ListBoxItem>
                         <ListBoxItem Name="ApathBoxItem">A-path-B</ListBoxItem>
                         <ListBoxItem Name="BellmanBoxItem">Bellman-Ford</ListBoxItem>
-                        <ListBoxItem Name="DijkstraBoxItem">Dijkstra's</ListBoxItem>
+                        <ListBoxItem Name="DijkstraBoxItem">Dijkstra</ListBoxItem>
                         <ListBoxItem Name="FloydBoxItem">Floyd-Warshall</ListBoxItem>
                         <ListBoxItem Name="BfsBoxItem">BFS</ListBoxItem>
                         <ListBoxItem Name="DFSBoxItem">DFS</ListBoxItem>
                         <ListBoxItem Name="PostOrderBoxItem">Post-order</ListBoxItem>
                         <ListBoxItem Name="DoMaxHeapBoxItem">Do MaxHeap</ListBoxItem>
                         <ListBoxItem Name="DoMinHeapBoxItem">Do MinHeap</ListBoxItem>
-                        <ListBoxItem Name="KruskalBoxItem">Kruskal's</ListBoxItem>
-                        <ListBoxItem Name="PrimBoxItem">Prim's</ListBoxItem>
+                        <ListBoxItem Name="KruskalBoxItem">Kruskal</ListBoxItem>
+                        <ListBoxItem Name="PrimBoxItem">Prim</ListBoxItem>
                     </ListBox>
                     <StackPanel VerticalAlignment="Bottom">
                         <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="64" Margin="0,0,0,10"

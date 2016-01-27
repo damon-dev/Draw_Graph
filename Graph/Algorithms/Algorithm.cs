@@ -33,10 +33,10 @@ namespace Graph.Algorithms
         {
             MainWindow = window;
             requiresNode = new[]
-            {"BFS", "DFS", "Dijkstra's", "Bellman-Ford", "Isolate", "A-path-B", "Post-order", "Prim's", "Reposition"};
+            {"BFS", "DFS", "Dijkstra", "Bellman-Ford", "Isolate", "A-path-B", "Post-order", "Prim", "Reposition"};
             requires2Nodes = new[] {"A-path-B"};
-            requiresWeight = new[] { "Dijkstra's", "Bellman-Ford", "Floyd-Warshall", "A-path-B", "Prim's", "Kruskal's"};
-            requiresUndirected = new[] {"Bipartization", "Do MaxHeap", "Do MinHeap", "Prim's", "Kruskal's"};
+            requiresWeight = new[] { "Dijkstra", "Bellman-Ford", "Floyd-Warshall", "A-path-B", "Prim", "Kruskal"};
+            requiresUndirected = new[] {"Bipartization", "Do MaxHeap", "Do MinHeap", "Prim", "Kruskal"};
         }
 
         protected Algorithm()
@@ -87,7 +87,7 @@ namespace Graph.Algorithms
                 case "Post-order":
                     alg = new PostOrder(Colors.Blue, Colors.DodgerBlue, Colors.Aqua);
                     break;
-                case "Dijkstra's":
+                case "Dijkstra":
                     alg = new Dijkstra(Colors.DarkViolet, Colors.Red, Colors.Gold, Colors.Violet);
                     break;
                 case "Bellman-Ford":
@@ -99,7 +99,7 @@ namespace Graph.Algorithms
                 case "A-path-B":
                     alg = new ApathB(startVertex);
                     break;
-                case "Prim's":
+                case "Prim":
                     alg = new Prim(Colors.DarkGray, Colors.Sienna, Colors.Gold, Colors.ForestGreen);
                     break;
                 case "Reposition":
@@ -165,7 +165,7 @@ namespace Graph.Algorithms
                 case "Floyd-Warshall":
                     alg = new FloydWarshall();
                     break;
-                case "Kruskal's":
+                case "Kruskal":
                     alg = new Kruskal(Colors.Sienna, Colors.DarkGray, Colors.Red);
                     break;
             }
