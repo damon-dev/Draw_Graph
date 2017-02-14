@@ -3,14 +3,12 @@ Simple graph constructor and algorithm visualiser.
 
 #Controls:
 
-Left Click on Empty -> Create New Node
+Left Click on Empty Space: Create New Node
 
-Left Click on Node  -> Move Node (delete if released out of boundaries)/Start Animation
+Left Click on Node: Move Node (delete if released out of boundaries)/Start specified Algorithm Animation
 
-Double Click Node   -> Edit Content
+Double Click Node: Edit Node Content
 
-Right Click on Node -> Create Edge (has to connect 2 different nodes)
+Right Click on Node: Create Edge (has to be dragged to a second node)
 
-Overlap 2 Edges     -> Delete Edge
-
-Everything else is straightforward (I guess).
+Overlap 2 Edges: Delete Edge
